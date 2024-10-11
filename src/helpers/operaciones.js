@@ -8,7 +8,10 @@ export const operaciones = (numeros, setNumeros) => {
     };
   
     const suma = () => numero1 + numero2;
-    //const resta =()=> numero1 - numero2;
+    const resta =()=> numero1 - numero2;
+    const multiplicacion =()=> numero1 * numero2;
+    const division =()=> numero1 / numero2;
+
   
-    return { handleChange, suma, numero1, numero2 };
+    return { handleChange, suma, resta,division,multiplicacion, numero1, numero2 };
   };
