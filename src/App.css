@@ -17,6 +17,22 @@
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
+div{
+  color:blanchedalmond ;
+  background-color: purple;
+  border-radius: 30px;
+}
+
+input,label{
+  color: blanchedalmond;
+  margin: 10px;
+  margin-inline: 5px;
+
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+}
 
 @keyframes logo-spin {
   from {
